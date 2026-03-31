@@ -1,0 +1,57 @@
+# =========================
+# Build folders
+# =========================
+/Debug/
+/Release/
+/build/
+/out/
+
+# Object / binary files
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# =========================
+# STM32CubeIDE / Eclipse
+# =========================
+.metadata/
+.settings/
+*.launch
+
+# Eclipse core files
+.project
+.cproject
+
+# CDT build files
+*.mk
+makefile
+objects.list
+sources.mk
+
+# =========================
+# CubeMX generated temporary
+# =========================
+*.ioc.bak
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# VSCode (nếu có mở song song)
+# =========================
+.vscode/
+
+# =========================
+# Backup / temp
+# =========================
+*~
+*.swp
+*.bak
