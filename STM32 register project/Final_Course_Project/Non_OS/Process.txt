@@ -1,0 +1,9 @@
+1. App 1
+-Đọc và trả về giá trị nhiệt độ chip qua ADC (mỗi 1 giây), hiện giá trị trên UART
+-interrupt dữ liệu uart truyền đến để bật tắt led
+2.App2
+-khởi tạo I2C
+-Đọc dữ liệu I2C từ cảm biến từ trường của LS303
+-hiện dữ liệu hướng và độ về qua uart2
+3.Bootloader
+-

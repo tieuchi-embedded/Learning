@@ -1,0 +1,12 @@
+../Core/Src/main.c:19:6:LedInit	1
+../Core/Src/main.c:29:6:LedCtrl	2
+../Core/Src/main.c:44:6:UART_init	1
+../Core/Src/main.c:83:6:UART_Transmit	3
+../Core/Src/main.c:92:6:UART_recieve	1
+../Core/Src/main.c:98:6:UART_print_log	2
+../Core/Src/main.c:107:6:USART2_IRQHandler	4
+../Core/Src/main.c:133:6:UART_send_number	5
+../Core/Src/main.c:161:6:UART_send_float	2
+../Core/Src/main.c:174:6:Temp_sensor_init	1
+../Core/Src/main.c:192:7:Temp_sensor_read	2
+../Core/Src/main.c:209:5:main	1

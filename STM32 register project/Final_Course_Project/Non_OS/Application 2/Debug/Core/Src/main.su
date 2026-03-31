@@ -1,0 +1,15 @@
+../Core/Src/main.c:24:6:UART_init	40	static
+../Core/Src/main.c:64:6:UART_Transmit	24	static
+../Core/Src/main.c:73:9:UART_recieve	16	static
+../Core/Src/main.c:79:6:UART_print_log	24	static
+../Core/Src/main.c:87:6:UART_send_number	40	static
+../Core/Src/main.c:112:6:UART_send_float	24	static
+../Core/Src/main.c:124:6:Flash_erase_sector	32	static
+../Core/Src/main.c:160:6:Flash_program	32	static
+../Core/Src/main.c:188:6:USART2_IRQHandler	32	static
+../Core/Src/main.c:214:6:I2C1_Master_Init	56	static
+../Core/Src/main.c:264:6:I2C_master_transmit_magnetometer_init	24	static
+../Core/Src/main.c:289:9:I2C1_Master_ReadRegister	40	static
+../Core/Src/main.c:325:6:LSM303AGR_Magnetometer_ReadXYZ	32	static
+../Core/Src/main.c:340:6:uart_print_navigation	8	static
+../Core/Src/main.c:367:5:main	16	static

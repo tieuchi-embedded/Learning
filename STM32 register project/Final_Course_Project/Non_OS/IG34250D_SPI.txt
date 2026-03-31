@@ -1,0 +1,75 @@
+IG34250D_SPI
+Full-scale (thang đo)
+245dps
+500dps
+2000dps
+Ảnh hưởng đến độ nhạy
+Cấu hình tại: CTRL_REG4 (địa chỉ 0x23)
+
+Output Data Rate (ODR)
+Tần số mẫu dữ liệu:
+Có thể chọn: 105 Hz, 208 Hz, 420 Hz, 840 Hz
+Tăng ODR giúp phản ứng nhanh hơn nhưng tốn điện hơn.
+Cấu hình tại: CTRL_REG1 (địa chỉ 0x20)
+
+Chế độ nguồn (Power Modes)
+Có 3 chế độ:
+Power-Down: tắt toàn bộ, tiết kiệm năng lượng.
+Sleep: dừng phép đo nhưng giữ cấu hình (tắt phần đọc dữ liệu).
+Normal (Active): hoạt động bình thường.
+Cấu hình tại: CTRL_REG1, bit PD
+
+FIFO Buffer
+Bộ đệm 32 mẫu cho mỗi trục (X, Y, Z)
+Có 3 chế độ:
+Bypass: không dùng FIFO.
+FIFO mode: lưu đầy rồi dừng.
+Stream mode: cuộn tròn, luôn giữ 32 mẫu gần nhất.
+Cấu hình tại: FIFO_CTRL_REG (0x2E), chọn FIFO_MODE
+
+Ngắt (Interrupts)
+Có 2 pin ngắt:
+INT1, DRDY/INT2
+Các kiểu ngắt:
+Data ready (dữ liệu mới sẵn sàng)
+FIFO watermark/full/empty
+Threshold trigger (góc vượt ngưỡng)
+Cấu hình tại: CTRL_REG3 (0x22), INT_CFG, FIFO_SRC_REG
+
+Bộ lọc tín hiệu
+Có tích hợp:
+Low-pass filter (lọc nhiễu tần số cao)
+High-pass filter (lọc offset/zero drift)
+Có thể cấu hình mức cutoff
+Cấu hình tại: CTRL_REG2 (0x21)
+
+Cảm biến nhiệt độ
+Đọc qua thanh ghi 8-bit
+Tốc độ làm mới 1 Hz
+Thanh ghi: OUT_TEMP (0x26)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
