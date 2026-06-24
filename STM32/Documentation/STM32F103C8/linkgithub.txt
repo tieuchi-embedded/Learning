@@ -1,0 +1,1 @@
+https://github.com/dhylands/stm32-test/blob/master/board-STM32F103-Mini/Bluepillpinout.gif
