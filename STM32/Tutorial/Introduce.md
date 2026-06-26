@@ -110,7 +110,7 @@ Khi tạo một dự án STM32 (ví dụ trên STM32CubeIDE), thư viện HAL s�
                 - **Src**/ (Sources): Chứa các file mã nguồn (.c). Đây là nơi viết code thực thi chi tiết của các hàm.
 
 
-## Bước 2: Sử dụng các công cụ điều hướng nhanh của IDE
+### Bước 2: Sử dụng các công cụ điều hướng nhanh của IDE
 Thay vì tìm kiếm thủ công từng file, hãy tận dụng tối đa các phím tắt của IDE (STM32CubeIDE, VS Code, Keil C):
 
 - Tìm hàm theo tên: Sử dụng tổ hợp phím Ctrl + Open Resource (hoặc Ctrl + P trên VS Code) rồi gõ tên file ngoại vi cần tìm, ví dụ: ``stm32f4xx_hal_gpio.c``.
@@ -124,11 +124,11 @@ Thay vì tìm kiếm thủ công từng file, hãy tận dụng tối đa các p
 ### Bước 3: Đọc khối chú thích Doxygen (Chìa khóa hiểu chức năng và tham số)
 Hãng ST viết mã nguồn theo chuẩn tài liệu Doxygen. Ngay phía trên mỗi hàm trong file .c, luôn có một khối chú thích (Block Comment) cực kỳ chi tiết bằng tiếng Anh. Bạn chỉ cần đọc khối này là biết tất cả:
 
-**@brief**: Mô tả ngắn gọn chức năng của hàm này dùng để làm gì.
+**`@brief`**: Mô tả ngắn gọn chức năng của hàm này dùng để làm gì.
 
-**@param**: Giải thích chi tiết từng tham số truyền vào. Đặc biệt, ST luôn ghi rõ các giá trị hoặc Macro hợp lệ cho tham số đó. (Ví dụ: @param GPIO_Pin specifies the port bit to be written. This parameter can be one of GPIO_PIN_x where x can be (0..15)).
+**`@param`**: Giải thích chi tiết từng tham số truyền vào. Đặc biệt, ST luôn ghi rõ các giá trị hoặc Macro hợp lệ cho tham số đó. (Ví dụ: @param GPIO_Pin specifies the port bit to be written. This parameter can be one of GPIO_PIN_x where x can be (0..15)).
 
-**@retval**: Giá trị trả về của hàm (Ví dụ: HAL_OK, HAL_ERROR, HAL_BUSY, HAL_TIMEOUT).
+**`@retval`**: Giá trị trả về của hàm (Ví dụ: HAL_OK, HAL_ERROR, HAL_BUSY, HAL_TIMEOUT).
 
 
 ### Bước 4: Phân tích cấu trúc (Giải phẫu) một hàm HAL
